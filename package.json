@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next dev -p 3210",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "bash scripts/deploy.sh"
   },
   "dependencies": {
     "motion": "^12.43.0",
