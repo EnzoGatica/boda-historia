@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Build estática con el basePath del repo y la publica en la rama gh-pages.
 set -euo pipefail
+export MSYS_NO_PATHCONV=1  # Git Bash en Windows convierte "/boda-historia" en una ruta local
 NEXT_PUBLIC_BASE_PATH=/boda-historia npm run build
 touch out/.nojekyll
 cd out
