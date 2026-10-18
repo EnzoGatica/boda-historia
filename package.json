@@ -1,0 +1,25 @@
+{
+  "name": "boda-historia",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sitio de boda: la historia de la pareja contada con scroll",
+  "scripts": {
+    "dev": "next dev -p 3210",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "motion": "^12.43.0",
+    "next": "^15.5.25",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.8.0"
+  }
+}
